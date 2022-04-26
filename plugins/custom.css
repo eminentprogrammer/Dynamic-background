@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+	--darkblue :  rgb(25, 39, 52);
+	--brown: rgb(10, 8, 128);
+	--white: rgb(31, 0, 0);
+}
+
+.bg-first{
+	background: var(--white);
+	color: white;
+}
+.bg-second{
+	background: var(--brown);
+	color: black;
+}
+.bg-second> button{
+	background: red;
+	font-size: 1rem;
+	padding:.5rem;
+}
+.bg-first > button{
+	background: blue;
+	font-size: 1rem;
+	padding: .1rem;
+}
+button{
+	border: .5rem white double;
+	border-color: rgb(255,255,255);
+	border-radius: 15%;
+	box-shadow: 5px 15px;
+	font-family: 'Sans-Serif';
+}
+
+.homepageImage{
+	height: 20rem;
+	background-image: url('../plugins/img/background.png'); 
+	background-size: contain; 
+	background-repeat: no-repeat; 
+}
